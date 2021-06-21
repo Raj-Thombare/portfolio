@@ -13,6 +13,10 @@ body {
     --off-light-blue:#DBEAFE;
 }
 
+.margin-md {
+    margin: 2rem 0rem;
+}
+
 /* container */
 
 .container {
