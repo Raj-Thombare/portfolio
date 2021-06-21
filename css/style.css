@@ -9,6 +9,8 @@ body {
 
 :root {
     --primary-color:#0000FF;
+    --grey-color:grey;
+    --off-light-blue:#DBEAFE;
 }
 
 /* container */
@@ -57,10 +59,12 @@ hr {
 
 /* navigation */
 
-nav {
+.navigation {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
+    border-radius: 0rem 0rem
+    0rem 1rem;
 }
 
 nav ul {
@@ -71,6 +75,7 @@ nav ul li {
     display: inline;
     list-style: none;  
 }
+
 nav a {
     color: white;
 }
@@ -85,6 +90,40 @@ nav .link-active {
 }
 
 /* header */
+
+.hero {
+
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    text-align: center;
+    color: var(--grey-color);
+    padding: 1rem;
+}
+
+.hero-heading span {
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section {
+    padding: 1rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-light-blue);
+}
 
 
 
