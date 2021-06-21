@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h1>Raj's Component Library</h1>
     <p>i am attending neog.camp and i want to make component library which would make all my projects look good and consistent.</p>
 
     <hr>
-    <!-- #0000FF -->
+    
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
@@ -24,18 +25,18 @@
 
     <h3>fluid container</h3>
 
-    <p>This is a fluid container and it will go till the end of the page.</p>
+    <div class="container ">This is a fluid container and it will go till the end of the page.</div>
 
     <h3>center container</h3>
 
-    <p>This is a center container and it will go till specified width.</p>
+    <div class="container container-center">This is a center container and it will go till specified width.</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link link-primary" href="/">Primary Link</a>
+    <a class="link link-secondary" href="/">Secondary Link</a>
 
     <hr>
 
@@ -43,7 +44,7 @@
 
     <h3>unordered list</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>item one</li>
         <li>item two</li>
         <li>item three</li>
@@ -51,15 +52,15 @@
 
     <h3>unordered inline list</h3>
 
-    <ul>
-        <li>inline item one</li>
-        <li>inline item two</li>
-        <li>inline item three</li>
+    <ul class="list-non-bullet">
+        <li class="item-inline">inline item one</li>
+        <li class="item-inline">inline item two</li>
+        <li class="item-inline">inline item three</li>
     </ul>
 
-    <h3>ordered list</h3>
+    <h3>reverse ordered list</h3>
 
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Eggs</li>
         <li>Bread</li>
@@ -69,12 +70,12 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>Raj Thombare</div>
+    <nav class="container">
+        <div class="brand-name">Raj Thombare</div>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Product</a></li>
-            <li><a href="/">About</a></li>
+            <li><a class="link link-active" href="/">Home</a></li>
+            <li><a class="link" href="/">Product</a></li>
+            <li><a class="link" href="/">About</a></li>
         </ul>
     </nav>
 
@@ -83,7 +84,7 @@
     <h2>@header</h2>
 
     <header>
-        <img src="images/hero.svg" alt="hero-image">
+        <img src="images/hero-hacker.svg" alt="hero-image">
         <h1>Heading inside header</h1>
     </header>
 
