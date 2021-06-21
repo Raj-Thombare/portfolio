@@ -17,6 +17,8 @@ body {
     margin: 2rem 0rem;
 }
 
+
+
 /* container */
 
 .container {
@@ -26,6 +28,10 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+.showcase-list {
+    padding: 2rem;
 }
 
 /* links */
