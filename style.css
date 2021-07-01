@@ -106,12 +106,28 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     list-style: none;  
+    position: relative;
 }
 
 nav a {
     color: white;
+}
+
+.hover-line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top:-5px;
+    width: 0%;
+    height: 2px;
+    transition: all ease-in-out 250ms;
+    background-color: var(--off-light-blue);
+}
+
+.hover-line:hover::after {
+    width: 100%;
 }
 
 .brand-name {
