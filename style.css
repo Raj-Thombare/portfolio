@@ -73,6 +73,12 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+.link-secondary:hover {
+    background-color: var(--off-light-blue);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
 /* lists */
 
 .list-non-bullet {
