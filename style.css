@@ -34,7 +34,13 @@ small {
     margin: 1.5rem 0rem;
 }
 
-
+.card {
+    margin-bottom: 25px;
+    display: inline-block;
+    max-width: 600px;
+    background-color: var(--off-light-blue);
+    border-radius: 25px;
+}
 
 /* container */
 
@@ -91,6 +97,14 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+.verticalCenter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
 /* navigation */
 
 .navigation {
@@ -115,21 +129,6 @@ nav a {
     color: white;
 }
 
-.hover-line::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top:25px;
-    width: 0%;
-    height: 5px;
-    transition: all ease-in-out 250ms;
-    background-color: var(--off-light-blue);
-}
-
-.hover-line:hover::after {
-    width: 100%;
-}
-
 .brand-name {
     font-weight: bolder;
     font-size: 20px;
@@ -139,15 +138,6 @@ nav .link-active {
     font-weight: bold;
 }
 
-.link-active::after {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 25px;
-    width: 100%;
-    height: 5px;
-    background-color: var(--off-light-blue);
-}
 
 /* header */
 
@@ -211,6 +201,8 @@ nav .link-active {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+
 
 
 
