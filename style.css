@@ -148,6 +148,8 @@ nav .link-active {
 .hero .hero-img {
     width: 90%;
     max-width: 350px;
+    border-radius: 50%;
+    border: 5px solid var(--off-light-blue);
     display: block;
     margin: auto;
 }
