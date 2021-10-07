@@ -135,7 +135,9 @@ nav a {
 
 nav .link-active {
     font-weight: bold;
-    text-decoration: overline;
+    background-color: var(--off-light-blue);
+    color: var(--primary-color);
+    border-radius: 20px;
 }
 
 
