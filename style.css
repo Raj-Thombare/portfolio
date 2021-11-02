@@ -41,6 +41,10 @@ small {
     border-radius: 25px;
 }
 
+.fontSize22 {
+    font-size: 22px;
+}
+
 /* container */
 
 .container {
@@ -123,7 +127,7 @@ nav ul li {
     list-style: none;  
     position: relative;
 }
-
+ 
 nav a {
     color: white;
 }
@@ -208,6 +212,10 @@ nav .link-active {
     padding-inline-start: 0px;
 }
 
+.tech {
+    padding: 20px 15px;
+    color: var(--primary-color);
+}
 
 
 
