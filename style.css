@@ -45,6 +45,10 @@ small {
     font-size: 22px;
 }
 
+.fa-3x {
+    font-size: 4em!important;
+}
+
 /* container */
 
 .container {
@@ -213,7 +217,7 @@ nav .link-active {
 }
 
 .tech {
-    margin: 14px 20px;
+    margin: 12px;
     color: var(--primary-color);
 }
 
