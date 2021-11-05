@@ -38,7 +38,7 @@ small {
     display: inline-block;
     max-width: 600px;
     background-color: var(--off-light-blue);
-    border-radius: 25px;
+    box-shadow: 5px 5px 5px #aaaaaa;
 }
 
 .fontSize22 {
