@@ -8,9 +8,9 @@ body {
 }
 
 :root {
-    --primary-color:#0f52ba;
-    --grey-color:grey;
-    --off-light-blue:#DBEAFE;
+    --primary-color: #0f52ba;
+    --grey-color: grey;
+    --off-light-blue: #DBEAFE;
 }
 
 p {
@@ -43,10 +43,6 @@ small {
 
 .fontSize22 {
     font-size: 22px;
-}
-
-.fa-3x {
-    font-size: 4em!important;
 }
 
 /* container */
@@ -118,8 +114,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius: 0rem 0rem
-    0rem 1rem;
+    border-radius: 0rem 0rem 0rem 1rem;
 }
 
 nav ul {
@@ -128,10 +123,10 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    list-style: none;  
+    list-style: none;
     position: relative;
 }
- 
+
 nav a {
     color: white;
 }
@@ -176,6 +171,11 @@ nav .link-active {
     color: var(--primary-color);
 }
 
+.skill-icons {
+    margin: 3px 10px;
+    width: 60px;
+}
+
 /* section */
 
 .section {
@@ -198,8 +198,7 @@ nav .link-active {
     color: white;
     padding: 1rem 2rem;
     text-align: center;
-    border-radius: 0rem 1rem
-    0rem 0rem;
+    border-radius: 0rem 1rem 0rem 0rem;
 }
 
 .footer-heading {
@@ -220,10 +219,3 @@ nav .link-active {
     margin: 12px;
     color: var(--primary-color);
 }
-
-
-
-
-
-
-
